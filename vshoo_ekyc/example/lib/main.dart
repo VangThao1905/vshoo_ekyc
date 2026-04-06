@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'vshoo_ekyc Example',
       theme: EkycTheme.theme,
       home: const HomeScreen(),
@@ -68,7 +69,8 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Icon(Icons.verified_user, size: 80, color: EkycTheme.primary),
+              const Icon(Icons.verified_user,
+                  size: 80, color: EkycTheme.primary),
               const SizedBox(height: 24),
               const Text(
                 'eKYC Plugin Demo',
@@ -93,7 +95,8 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   icon: const Icon(Icons.play_arrow),
-                  label: const Text('Bắt đầu xác thực eKYC', style: TextStyle(fontSize: 16)),
+                  label: const Text('Bắt đầu xác thực eKYC',
+                      style: TextStyle(fontSize: 16)),
                   onPressed: () => _startEkyc(context),
                 ),
               ),
