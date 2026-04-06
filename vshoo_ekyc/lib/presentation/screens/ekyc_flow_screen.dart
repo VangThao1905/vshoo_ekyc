@@ -36,18 +36,21 @@ class EkycFlowScreen extends StatelessWidget {
           return ResultScreen(session: state.session);
         }
 
-        return Scaffold(
-          appBar: AppBar(
-            title: const Text('Xac thuc eKYC'),
-            bottom: PreferredSize(
-              preferredSize: const Size.fromHeight(48),
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
-                child: StepProgressBar(currentStep: state.step),
+        return SafeArea(
+          child: Scaffold(
+            appBar: AppBar(
+              title: const Text('Xác thực eKYC'),
+              bottom: PreferredSize(
+                preferredSize: const Size.fromHeight(48),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
+                  child: StepProgressBar(currentStep: state.step),
+                ),
               ),
             ),
+            body: const Center(
+                child: Text('Camera Screen — se implement voi camera plugin')),
           ),
-          body: const Center(child: Text('Camera Screen — se implement voi camera plugin')),
         );
       },
     );
