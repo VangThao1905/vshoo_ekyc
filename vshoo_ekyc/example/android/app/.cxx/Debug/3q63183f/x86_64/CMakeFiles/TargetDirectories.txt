@@ -1,0 +1,2 @@
+/Users/vang.ta/Documents/MyProjects/vshoo_ekyc/vshoo_ekyc/example/android/app/.cxx/Debug/3q63183f/x86_64/CMakeFiles/edit_cache.dir
+/Users/vang.ta/Documents/MyProjects/vshoo_ekyc/vshoo_ekyc/example/android/app/.cxx/Debug/3q63183f/x86_64/CMakeFiles/rebuild_cache.dir
