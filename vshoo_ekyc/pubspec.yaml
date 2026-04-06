@@ -13,7 +13,12 @@ dependencies:
   plugin_platform_interface: ^2.0.2
   freezed_annotation: ^2.1.0
   json_annotation: ^4.6.0
-  dartz: ^0.10.1
+  fpdart: ^1.1.0
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  dio: ^5.7.0
+  image: ^4.2.0
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
